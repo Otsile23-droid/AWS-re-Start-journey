@@ -20,7 +20,7 @@
 
 ## Screenshot
 
-<img src= "AWS-re-Start-journey\compute\EC2 instance running.png" >
+<img src= "compute/EC2 instance running.png" >
 
 ## Diagram
 
