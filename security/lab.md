@@ -25,7 +25,7 @@ After completing this lab, you should be able to:
    - Endpoint: Your valid email address
 4. Confirm the subscription by clicking the link in the email.
 
-<img src= "security\SNS.png" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/a1d38a80768db98e27cfcee2737ca24ccb32fb67/security/SNS.png" >
 ✅ At this point, SNS is ready to send notifications.
 
 ### Step 2: Create a CloudWatch Alarm
@@ -38,7 +38,7 @@ After completing this lab, you should be able to:
    - Action: Send notification to `MyCwAlarm` SNS topic
    - Name: `LabCPUUtilizationAlarm`
 
-<img src= "security\Alarm.png" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/a1d38a80768db98e27cfcee2737ca24ccb32fb67/security/Alarm.png" >
 ✅ The alarm is now set to trigger when CPU utilization > 60%.
 
 ### Step 3: Test the Alarm
@@ -48,8 +48,8 @@ After completing this lab, you should be able to:
    Return to CloudWatch → Alarms. Within a few minutes, the alarm should switch to In Alarm state.
 3. Check your email inbox for a notification from SNS.
 
-<img src= "security\Stress Test.png" >
-<img src= "security\SNS Alarm.png" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/a1d38a80768db98e27cfcee2737ca24ccb32fb67/security/Stress%20Test.png" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/a1d38a80768db98e27cfcee2737ca24ccb32fb67/security/SNS%20Alarm%20.png" >
 ✅ The alarm has been successfully tested.
 
 ## Step 4: Create a CloudWatch Dashboard
@@ -59,7 +59,7 @@ After completing this lab, you should be able to:
 3. Add a Line widget displaying CPUUtilization for the Stress Test instance.
 4. Save the dashboard.
 
-<img src= "security\CloudWatch Dashboard.png" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/a1d38a80768db98e27cfcee2737ca24ccb32fb67/security/CloudWatch%20Dashboard.png" >
 ✅ You now have a quick view of EC2 CPU utilization.
 
 ## Challenges You Might Encounter

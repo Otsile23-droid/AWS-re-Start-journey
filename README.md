@@ -12,6 +12,8 @@ This repository documents my **AWS re/Start learning journey**, including notes,
 | `storage/` | Notes and labs for **S3, EBS, Glacier**, and storage best practices. |
 | `database/` | Notes and labs for **RDS, Aurora, DynamoDB**, and analytics services. |
 | `networking/` | Notes and labs for **VPCs, subnets, security groups, NAT gateways, Route 53**, and networking concepts. |
+| `security/` | Notes and labs for **IAM, KMS, CloudTrail, GuardDuty, Shield**, and security best practices. |
+| `certificates/` | Progress tracking and certifications earned. |
 
 ---
 
@@ -43,4 +45,4 @@ This repository documents my **AWS re/Start learning journey**, including notes,
 
 - Expand labs with real-world scenarios.  
 - Update diagrams for complex architectures.  
-- Track progress and notes for Cloud Practitioner exam prep.
+- Track progress and notes for Cloud Practitioner exam prep.  
