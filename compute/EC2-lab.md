@@ -24,7 +24,7 @@
 
 ## Diagram
 
-<img src="AWS-re-Start-journey\compute\EC2-lab architecture.png" alt="AWS cloud architecture diagram showing an EC2 instance in a public subnet within a VPC, connected to an Internet Gateway. The instance has associated security groups and can be accessed via HTTP port 80">
+<img src="https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/cb227d59142a26e4afd8def452f27dc210fb9e15/compute/EC2-lab%20architecture.png" alt="AWS cloud architecture diagram showing an EC2 instance in a public subnet within a VPC, connected to an Internet Gateway. The instance has associated security groups and can be accessed via HTTP port 80">
 
 ## Key Takeaways
 
