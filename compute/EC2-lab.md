@@ -18,6 +18,10 @@
 5. Stopped and resized instance type
 6. Disabled termination protection, then terminated instance
 
+## Screenshot
+
+<img src= "AWS-re-Start-journey\compute\EC2 instance running.png" >
+
 ## Diagram
 
 <img src="AWS-re-Start-journey\compute\EC2-lab architecture.png" alt="AWS cloud architecture diagram showing an EC2 instance in a public subnet within a VPC, connected to an Internet Gateway. The instance has associated security groups and can be accessed via HTTP port 80">
