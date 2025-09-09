@@ -20,7 +20,7 @@
 
 ## Screenshot
 
-<img src= "compute/EC2 instance running.png" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/fefcdd1fc492e58c610674dbdb04bf2bfdd94430/compute/EC2%20instance%20running.png" >
 
 ## Diagram
 
