@@ -1,6 +1,6 @@
 # Scaling and Load Balancing Your Architecture
 
-<img src= "compute\scaling_and_load_balancing_lab.md" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/45a7640dfce5c877f831d939e2044bdc248ca94f/compute/scaling_and_load_balancing_lab_architecture.png" >
 
 ## Lab Overview
 
@@ -51,7 +51,7 @@ By the end of this lab, you will be able to:
 4. Back in Load Balancer config:
    - **Listener → Forward to:** `lab-target-group`.
 5. Create the load balancer and copy its **DNS name** for later testing.
-   <img src= "compute\lab_target_group.png" >
+   <img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/45a7640dfce5c877f831d939e2044bdc248ca94f/compute/lab_target_group.png" >
 
 ---
 
@@ -64,7 +64,7 @@ By the end of this lab, you will be able to:
    - **Instance type:** `t3.micro` (or fallback `t2.micro`).
    - **Security group:** `Web Security Group`.
 2. Create template → Confirm success message.
-   <img src= "compute\lab_app_launch_template.png" >
+   <img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/45a7640dfce5c877f831d939e2044bdc248ca94f/compute/lab_app_launch_template.png" >
 
 ---
 
@@ -83,7 +83,7 @@ By the end of this lab, you will be able to:
    - **Policy:** Target tracking (Average CPU utilization = 50%).
 4. Add tag: `Name = Lab Instance`.
 5. Create Auto Scaling group → Instances launch automatically.
-   <img src= "compute\lab_target_group.png" >
+   <img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/45a7640dfce5c877f831d939e2044bdc248ca94f/compute/lab_target_group.png" >
 
 ---
 
@@ -92,7 +92,7 @@ By the end of this lab, you will be able to:
 1. EC2 Console → **Instances**: Confirm two new `Lab Instance` instances.
 2. Load Balancer → **Target Groups**: Confirm both instances show **Healthy**.
 3. Open the **DNS name** of the load balancer in a browser → Load Test app should appear.
-   <img src= "compute\Lab_Instance_Health_status.png" >
+   <img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/45a7640dfce5c877f831d939e2044bdc248ca94f/compute/Lab_Instance_Health_status.png" >
 
 ---
 
@@ -105,7 +105,7 @@ By the end of this lab, you will be able to:
    - `AlarmHigh` → **In alarm** state.
    - Auto Scaling adds new instances.
 4. Confirm in EC2 Console: More than 2 instances running.
-   <img src= "compute\Lab_Instances_running.png" >
+   <img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/45a7640dfce5c877f831d939e2044bdc248ca94f/compute/Lab_Instances_running.png" >
 
 ---
 
@@ -113,7 +113,7 @@ By the end of this lab, you will be able to:
 
 1. EC2 Console → Select **Web Server 1**.
 2. Actions → **Instance state → Terminate instance**.  
-   <img src= "compute\Web_Server_terminated.png" >
+   <img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/45a7640dfce5c877f831d939e2044bdc248ca94f/compute/Web_Server_terminated.png" >
 
 ---
 
