@@ -13,7 +13,7 @@ This lab demonstrates how to deploy static websites using S3, configure proper p
 
 ---
 
-<img src= "storage\screenshots\architecture.png"
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/63b68a78a2d60748eda4f4bd5305b992cf580541/storage/screenshots/architecture.png" >
 
 ## Objectives
 
@@ -56,7 +56,7 @@ Amazon Linux instances come with AWS CLI pre-installed.
 
 **Note**: The bucket name must be globally unique. Use your initials + random numbers.
 
-## <img src= "storage\screenshots\creating_an_S3_bucket_using_AWS CLI.png" >
+ <img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/63b68a78a2d60748eda4f4bd5305b992cf580541/storage/screenshots/creating_an_S3_bucket_using_AWS%20CLI.png" >
 
 ## Task 4: Create New IAM User with Full S3 Access
 
@@ -79,7 +79,7 @@ aws iam list-policies --query "Policies[?contains(PolicyName,'S3')]"
 ```
 
 4. Attach the **AmazonS3FullAccess** policy to the user:
-   <img src= "storage\screenshots\attaching_policy_to_the_user.png" >
+   <img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/63b68a78a2d60748eda4f4bd5305b992cf580541/storage/screenshots/attaching_policy_to_the_user.png" >
 5. **Test the new user**:
    - Copy the 12-digit Account ID from AWS Console
    - Sign out of current session
@@ -100,7 +100,7 @@ aws iam list-policies --query "Policies[?contains(PolicyName,'S3')]"
 1. Navigate to the lab files directory:
 2. **Expected files**: `index.html`, `css/` directory, `images/` directory
 
-## <img src= "storage\screenshots\extracting_web_files.png" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/63b68a78a2d60748eda4f4bd5305b992cf580541/storage/screenshots/extracting_web_files.png" >
 
 ## Task 7: Upload Files and Configure Website Hosting
 
@@ -108,14 +108,14 @@ aws iam list-policies --query "Policies[?contains(PolicyName,'S3')]"
 2. Upload website files with public read access:
 3. Verify upload
 
-<img src= "storage\screenshots\uploading_files.png" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/63b68a78a2d60748eda4f4bd5305b992cf580541/storage/screenshots/uploading_files.png" >
 
 4. **Test the website**:
    - Go to S3 Console → Your Bucket → Properties → Static website hosting
    - Click the **Bucket website endpoint URL**
    - **Result**: Café & Bakery website should display
 
-<img src= "storage\screenshots\cafe_&_bakery_website.png" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/63b68a78a2d60748eda4f4bd5305b992cf580541/storage/screenshots/cafe_%26_bakery_website.png" >
 
 ---
 
@@ -127,7 +127,7 @@ aws iam list-policies --query "Policies[?contains(PolicyName,'S3')]"
 4. Save and exit: `Esc` → `:wq` → `Enter`
 5. Make executable
 
-<img src= "storage\screenshots\automated_deployment_script.png" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/63b68a78a2d60748eda4f4bd5305b992cf580541/storage/screenshots/automated_deployment_script.png" >
 
 ---
 
@@ -154,7 +154,7 @@ vi sysops-activity-files/static-website/index.html
 
 5. **Verify changes**: Refresh the Café & Bakery website to see updated colors
 
-<img src= "storage\screenshots\updated_website.png" >
+<img src= "https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/63b68a78a2d60748eda4f4bd5305b992cf580541/storage/screenshots/updated_website.png" >
 
 ---
 
