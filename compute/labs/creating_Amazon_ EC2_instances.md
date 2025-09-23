@@ -1,6 +1,6 @@
 # Creating Amazon EC2 Instances
 
-<img src="compute\screenshots\creating_Amazon_EC2_instances.png" alt="EC2 Lab Architecture">
+<img src="https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/0fdc9c131580d5b58726c99dcf88fe4ca9940218/compute/screenshots/creating_Amazon_EC2_instances.png" alt="EC2 Lab Architecture">
 
 ## Lab Overview
 
@@ -55,7 +55,7 @@ By the end of this lab, you will be able to:
    ```bash
    aws --version
    ```
-   <img src="compute\screenshots\Bastion_Host_connected.png" alt="Bastion Host Connected">
+   <img src="https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/0fdc9c131580d5b58726c99dcf88fe4ca9940218/compute/screenshots/Bastion_Host_connected.png" alt="Bastion Host Connected">
 
 ---
 
@@ -69,7 +69,7 @@ By the end of this lab, you will be able to:
 
 ### Step 4: Download User Data Script
 
-<img src="compute\screenshots\launching_web_server_via_AWS_CLI.png" >
+<img src="https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/0fdc9c131580d5b58726c99dcf88fe4ca9940218/compute/screenshots/launching_web_server_via_AWS_CLI.png" >
 
 ### Step 5: Launch Web Server Instance
 
@@ -93,7 +93,7 @@ echo $INSTANCE
 aws ec2 describe-instances --instance-ids $INSTANCE --query 'Reservations[].Instances[].State.Name' --output text
 ```
 
-<img src="compute\screenshots\Web_Server_running.png" alt="Web Server Success">
+<img src="https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/0fdc9c131580d5b58726c99dcf88fe4ca9940218/compute/screenshots/Web_Server_running.png" alt="Web Server Success">
 
 ### Step 7: Test Web Server
 
@@ -104,7 +104,7 @@ aws ec2 describe-instances --instance-ids $INSTANCE --query Reservations[].Insta
 
 Copy the DNS name → Open in browser → Verify web application loads
 
-<img src="compute\screenshots\Web_Server_success.png" alt="Web Server Success">
+<img src="https://github.com/Otsile23-droid/AWS-re-Start-journey/blob/0fdc9c131580d5b58726c99dcf88fe4ca9940218/compute/screenshots/Web_Server_success.png" alt="Web Server Success">
 
 ## Summary
 
